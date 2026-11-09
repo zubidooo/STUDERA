@@ -108,7 +108,11 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("r11").style.display = "inline;"
         document.getElementById("f11").style.display = "none";
     }
-    else
+    else{
+           document.getElementById("r11").style.display = "none";
+          document.getElementById("f11").style.display = "inline";
+          document.getElementById("f11").innerText = "Fel ❌ Rätt svar: Skogen höggs ner för betesmark och getter/får betade sönder ny skog. Buskvegetationen kallas macchia.";
+    }
 
   });
 });
