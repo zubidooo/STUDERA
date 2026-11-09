@@ -103,5 +103,12 @@ document.addEventListener("DOMContentLoaded", () => {
           document.getElementById("f10").innerText = "Fel ❌ Rätt svar: Vittring bryter ner materialet på plats medan erosion också transporterar bort det.";
       }
 
+      // --- Question 11 ---
+      if (document.getElementById("q11").value === "Skogen höggs ner för betesmark och getter/får betade sönder ny skog. Buskvegetationen kallas macchia."){
+        document.getElementById("r11").style.display = "inline;"
+        document.getElementById("f11").style.display = "none";
+    }
+    else
+
   });
 });
