@@ -1,3 +1,5 @@
+/*
+
 document.addEventListener("DOMContentLoaded", () => {
     
   // Find the button now that the HTML has fully finished loading
@@ -116,3 +118,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   });
 });
+
+
+*/
